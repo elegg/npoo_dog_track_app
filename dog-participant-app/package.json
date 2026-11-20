@@ -1,0 +1,46 @@
+{
+  "name": "dog-participant-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@lexical/html": "^0.53.0",
+    "@mantine/carousel": "^9.8.1",
+    "@mantine/core": "^9.8.1",
+    "@mantine/hooks": "^9.8.1",
+    "@mantine/tiptap": "^9.8.1",
+    "@nanostores/query": "^0.3.4",
+    "@nanostores/react": "^2.0.1",
+    "@nanostores/router": "^2.0.1",
+    "@tabler/icons-react": "^3.52.0",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-notification": "^2.8.1",
+    "@tauri-apps/plugin-opener": "^2",
+    "@tiptap/extension-link": "^3.34.0",
+    "@tiptap/pm": "^3.34.0",
+    "@tiptap/react": "^3.34.0",
+    "@tiptap/starter-kit": "^3.34.0",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "nanostores": "^1.5.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@vitejs/plugin-react": "^6.0.2",
+    "postcss": "^8.5.33",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "vite": "^8.0.16"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
+  }
+}
